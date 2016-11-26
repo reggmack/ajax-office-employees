@@ -23,7 +23,6 @@
     xhr.open('GET', 'data/employees.json');
     xhr.send();
     
-    
     //Room Request
     var roomRequest = new XMLHttpRequest();
     roomRequest.onreadystatechange = function () {
@@ -45,5 +44,6 @@
     };
     roomRequest.open('GET', 'data/rooms.json');
     roomRequest.send();
-    
+
 })();//end use strict
+
